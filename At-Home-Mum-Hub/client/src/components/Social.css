@@ -1,0 +1,39 @@
+.Hero-back {
+  background-color: #455a4d;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-flex-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95%;
+  max-width: 1200px;
+  gap: 2rem;
+}
+
+.instagram-wrapper {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  min-width: 328px;
+  max-width: 400px;
+  align-self: stretch;
+}
+
+.instagram-wrapper > div {
+  height: 100% !important;
+  display: flex;
+  height: 800px;
+}
+
+/* @media (max-width: 900px) {
+  .social-flex-cont {
+    flex-direction: column;
+    width: 100%;
+    margin-inline: auto;
+  }
+} */

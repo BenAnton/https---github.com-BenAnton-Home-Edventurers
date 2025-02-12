@@ -1,0 +1,66 @@
+.chat-grid {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 9fr 1fr;
+  border: 2px solid white;
+  margin: 3%;
+}
+
+.UserWindow {
+  border: 2px solid white;
+}
+
+.MessageWindow {
+  border: 2px solid white;
+  height: 65vh;
+}
+
+.Compose {
+  border: 2px solid white;
+  grid-column: 1 / 3;
+  display: flex;
+}
+
+.chat-send-btn {
+  width: 250px;
+  margin-left: auto;
+  color: white;
+  background-color: #2a4041;
+  border: 2px solid white;
+  margin: 15px;
+}
+
+.message {
+  flex-grow: 2;
+  border: 1px solid white;
+}
+
+.message-cont {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  grid-template-rows: 3fr 1fr;
+  gap: 5px;
+  margin: 25px;
+}
+
+.message-details {
+  padding: 25px;
+  border: 2px solid white;
+  border-radius: 25px;
+  text-align: left;
+  background-color: #2a4041;
+}
+
+.message-time {
+  font-weight: 900;
+  color: white;
+  grid-column: 1/3;
+  padding-left: 25px;
+}
+
+.channel-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+}

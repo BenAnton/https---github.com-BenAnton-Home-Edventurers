@@ -1,0 +1,28 @@
+:root {
+  --slide-count: 6;
+  --slide-height: 250px;
+  --slide-width: 250px;
+  --gap: 10px;
+  --time: 50s;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider-cont {
+  position: relative;
+  display: flex;
+  row-gap: 25px;
+}
+
+.slider-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}

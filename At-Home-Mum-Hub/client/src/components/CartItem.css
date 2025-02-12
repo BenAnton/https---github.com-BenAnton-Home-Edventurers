@@ -1,0 +1,41 @@
+.basket-items-cont {
+  border: 2px solid white;
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  width: 100%;
+}
+
+.basket-item-left {
+  width: 150px;
+}
+
+.basket-item-right {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.basket-item-image {
+  width: 150px;
+}
+
+.basket-item-title {
+  font-weight: 900;
+}
+
+.basket-item-btn {
+  border: 2px solid white;
+  width: 150px;
+  height: 50px;
+  font-weight: 900;
+}
+
+.basket-item-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #2a4041;
+  font-weight: 900;
+}

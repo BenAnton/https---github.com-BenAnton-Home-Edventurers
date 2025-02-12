@@ -1,0 +1,27 @@
+.footer-cont {
+  background-color: #2a4041;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: white;
+  margin-top: auto;
+  padding-top: 5px;
+  border-top: 2px solid white;
+}
+
+.footer-cont > p {
+  font-weight: 900;
+  font-size: 1.3rem;
+  background-color: #2a4041;
+  width: 100%;
+}
+
+.spacer {
+  background-color: #2a4041;
+  width: 100%;
+  height: 5px;
+}
+
+.flex-footer {
+  background-color: #2a4041;
+}
