@@ -4,6 +4,8 @@ import three from "../assets/3.jpg";
 import four from "../assets/4.jpg";
 import five from "../assets/5.jpg";
 import six from "../assets/6.jpg";
+import seven from "../assets/motivation.jpg";
+import eight from "../assets/plants.jpg";
 
 function PhotoGrid() {
   return (
@@ -14,6 +16,8 @@ function PhotoGrid() {
       <img src={four} alt="" className="grid-image" />
       <img src={five} alt="" className="grid-image" />
       <img src={six} alt="" className="grid-image" />
+      <img src={seven} alt="" className="grid-image" />
+      <img src={eight} alt="" className="grid-image" />
     </div>
   );
 }

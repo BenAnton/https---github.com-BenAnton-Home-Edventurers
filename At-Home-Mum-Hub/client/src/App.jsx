@@ -20,13 +20,12 @@ function App() {
 
   return (
     <>
-      <div className="container">
-        <AuthProvider>
-          <CartProvider>
-            <Router>
-              <div className="flex-footer">
-                <NewNav openSignup={openSignup} />
-
+      <AuthProvider>
+        <CartProvider>
+          <Router>
+            <div className="container">
+              <NewNav openSignup={openSignup} />
+              <div className="main-content">
                 <Routes>
                   <Route path="/" element={<Home openSignup={openSignup} />} />
                   <Route path="/About" element={<About />} />
@@ -34,13 +33,13 @@ function App() {
                   <Route path="/Me" element={<MyAccount />} />
                   <Route path="/Chat" element={<Chat />} />
                 </Routes>
-                <Footer />
-                <SignUpModel isOpen={isSignupOpen} onClose={closeSignup} />
               </div>
-            </Router>
-          </CartProvider>
-        </AuthProvider>
-      </div>
+              <Footer />
+            </div>
+            <SignUpModel isOpen={isSignupOpen} onClose={closeSignup} />
+          </Router>
+        </CartProvider>
+      </AuthProvider>
     </>
   );
 }

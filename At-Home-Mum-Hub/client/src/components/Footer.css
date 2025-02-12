@@ -1,27 +1,45 @@
 .footer-cont {
-  background-color: #2a4041;
+  height: 250px;
   width: 100%;
-  height: 50px;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  color: white;
-  margin-top: auto;
-  padding-top: 5px;
   border-top: 2px solid white;
+  padding: 35px;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: #2a4041;
 }
 
-.footer-cont > p {
+.footer-logo {
+  width: 250px;
+  color: white;
   font-weight: 900;
-  font-size: 1.3rem;
-  background-color: #2a4041;
-  width: 100%;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
 }
 
-.spacer {
-  background-color: #2a4041;
-  width: 100%;
-  height: 5px;
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
 }
 
-.flex-footer {
-  background-color: #2a4041;
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  font-weight: 900;
+  width: 33%;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links:hover {
+  color: #455a4d;
 }
