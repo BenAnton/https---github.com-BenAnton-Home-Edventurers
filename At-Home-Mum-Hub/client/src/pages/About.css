@@ -15,6 +15,7 @@ body {
   display: flex;
   width: 90%;
   margin-inline: auto;
+  justify-content: center;
   background-color: #2a4041;
   width: 100%;
   padding-inline: 5%;
@@ -33,6 +34,7 @@ body {
 
 .flex-right {
   width: 50%;
+  justify-content: center;
 }
 
 .pam-img {

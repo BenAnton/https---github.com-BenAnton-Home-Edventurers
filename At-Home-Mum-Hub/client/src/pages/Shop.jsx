@@ -19,20 +19,60 @@ function Shop() {
           world...
         </h2>
       </div>
+      <p className="item-cat-heading">For Kids...</p>
       <div className="items-cont">
         {items &&
-          items.map((item) =>
-            item ? (
-              <ItemCard
-                key={item.id}
-                id={item.id}
-                image={item.image}
-                title={item.title}
-                price={item.price}
-                description={item.description}
-              />
-            ) : null
-          )}
+          items
+            .filter((items) => items.category === "for kids")
+            .map((item) =>
+              item ? (
+                <ItemCard
+                  key={item.id}
+                  id={item.id}
+                  image={item.image}
+                  title={item.title}
+                  price={item.price}
+                  description={item.description}
+                />
+              ) : null
+            )}
+      </div>
+      <p className="item-cat-heading">For Adults...</p>
+      <div className="items-cont">
+        {items &&
+          items
+            .filter((items) => items.category === "for adults")
+            .map((item) =>
+              item ? (
+                <ItemCard
+                  key={item.id}
+                  id={item.id}
+                  image={item.image}
+                  title={item.title}
+                  price={item.price}
+                  description={item.description}
+                />
+              ) : null
+            )}
+      </div>
+
+      <p className="item-cat-heading">Free Resources...</p>
+      <div className="items-cont">
+        {items &&
+          items
+            .filter((items) => items.category === "free resources")
+            .map((item) =>
+              item ? (
+                <ItemCard
+                  key={item.id}
+                  id={item.id}
+                  image={item.image}
+                  title={item.title}
+                  price={item.price}
+                  description={item.description}
+                />
+              ) : null
+            )}
       </div>
     </>
   );

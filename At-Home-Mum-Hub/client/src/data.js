@@ -3,6 +3,8 @@ import ChildLed from "./assets/Child-Led.jpg";
 import Montessori from "./assets/Montessori.jpg";
 import Waldorf from "./assets/Waldorf.jpg";
 
+// categories: for kids, for adults, free resources
+
 let items = [
   {
     id: 1,
@@ -12,6 +14,7 @@ let items = [
     price: "£9.99",
     description:
       "Test Description that is a little lengthy one sentence with more words to make near two lines.",
+    category: "for kids",
   },
   {
     id: 2,
@@ -21,15 +24,17 @@ let items = [
     price: "£99.99",
     description:
       "Test Description that is a little lengthy one sentence with more words to make near two lines.",
+    category: "for adults",
   },
   {
     id: 3,
     image: Montessori,
     inCart: true,
     title: "Test Title 3",
-    price: "£999.99",
+    price: "Free",
     description:
       "Test Description that is a little lengthy one sentence with more words to make near two lines.",
+    category: "free resources",
   },
   {
     id: 4,
@@ -39,6 +44,7 @@ let items = [
     price: "£0.99",
     description:
       "Test Description that is a little lengthy one sentence with more words to make near two lines.",
+    category: "for adults",
   },
   {
     id: 5,
@@ -48,15 +54,17 @@ let items = [
     price: "£5.99",
     description:
       "Test Description that is a little lengthy one sentence with more words to make near two lines.",
+    category: "for kids",
   },
   {
     id: 6,
     image: ChildLed,
     inCart: false,
     title: "Test Title 6",
-    price: "£24.95",
+    price: "Free",
     description:
       "Test Description that is a little lengthy one sentence with more words to make near two lines.",
+    category: "free resources",
   },
   {
     image: Montessori,
@@ -66,6 +74,7 @@ let items = [
 
     description:
       "Test Description that is a little lengthy one sentence with more words to make near two lines.",
+    category: "for adults",
   },
   {
     id: 7,
@@ -75,6 +84,7 @@ let items = [
     price: "£1,200.00",
     description:
       "Test Description that is a little lengthy one sentence with more words to make near two lines.",
+    category: "for kids",
   },
   {
     id: 8,
@@ -83,6 +93,7 @@ let items = [
     title: "Pam's",
     price: "£1",
     description: "Pams new resource that is just being added.",
+    category: "for adults",
   },
 ];
 

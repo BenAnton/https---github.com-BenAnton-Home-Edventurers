@@ -29,6 +29,12 @@
   font-weight: 900;
 }
 
+.item-cat-heading {
+  margin-left: 20px;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
 @media (min-width: 1200px) {
   .items-cont {
     grid-template-columns: 1fr 1fr 1fr;
