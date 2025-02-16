@@ -1,0 +1,38 @@
+implement payment system. 
+    Stripe?
+
+Testing
+
+
+SSo = single sign on
+
+
+Admin acounts for more CRUD calls
+    restrict posts etc. 
+
+
+Detailed readme
+
+
+Security - error message consistency
+
+
+Mushies Page + Gnome Adventurers Page
+awaiting content from Pam.
+
+
+About me content
+Awaiting content from Pam.
+
+
+Chat application implementation
+
+
+Social media integration on home page instead of url. 
+    Instagram
+    Tiktok
+    Facebook 
+
+
+Deploy site
+    Render?

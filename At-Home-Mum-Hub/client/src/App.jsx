@@ -12,6 +12,8 @@ import MyAccount from "./components/MyAccount.jsx";
 import Chat from "./pages/Chat.jsx";
 import { useState } from "react";
 import SignUpModel from "./pages/SignupModel.jsx";
+import Gnome from "./pages/Gnome.jsx";
+import Mushies from "./pages/Mushies.jsx";
 
 function App() {
   const [isSignupOpen, setIsSignupOpen] = useState(false);
@@ -32,6 +34,8 @@ function App() {
                   <Route path="/Shop" element={<Shop />} />
                   <Route path="/Me" element={<MyAccount />} />
                   <Route path="/Chat" element={<Chat />} />
+                  <Route path="/Gnome" element={<Gnome />} />
+                  <Route path="/Mushies" element={<Mushies />} />
                 </Routes>
               </div>
               <Footer />

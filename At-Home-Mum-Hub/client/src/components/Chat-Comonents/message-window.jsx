@@ -1,10 +1,16 @@
+/* eslint-disable react/prop-types */
 import "./Chat.css";
-import Message from "./Message";
 
-function MessageWindow() {
+const user = "Pam";
+
+function MessageWindow({ messages }) {
   return (
     <div className="MessageWindow">
-      <Message />
+      {messages.map((message, index) => (
+        <div key={index} className="message">
+          {user} : {message}
+        </div>
+      ))}
     </div>
   );
 }

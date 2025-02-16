@@ -16,7 +16,7 @@ function Shop() {
       <div className="banner">
         <h2 className="banner-text">
           Lovingly crafted resource packs for the Home Edventurers of this
-          world...
+          world!
         </h2>
       </div>
       <p className="item-cat-heading">For Kids...</p>

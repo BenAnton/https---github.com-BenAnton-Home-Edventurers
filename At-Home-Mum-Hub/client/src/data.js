@@ -61,20 +61,10 @@ let items = [
     image: ChildLed,
     inCart: false,
     title: "Test Title 6",
-    price: "Free",
+    price: "free",
     description:
       "Test Description that is a little lengthy one sentence with more words to make near two lines.",
     category: "free resources",
-  },
-  {
-    image: Montessori,
-    inCart: false,
-    title: "Test Title 7",
-    price: "£180.00",
-
-    description:
-      "Test Description that is a little lengthy one sentence with more words to make near two lines.",
-    category: "for adults",
   },
   {
     id: 7,
@@ -94,6 +84,24 @@ let items = [
     price: "£1",
     description: "Pams new resource that is just being added.",
     category: "for adults",
+  },
+  {
+    id: 9,
+    image: Waldorf,
+    inCart: false,
+    title: "Pam's",
+    price: "£1",
+    description: "Pams new resource that is just being added.",
+    category: "free resources",
+  },
+  {
+    id: 10,
+    image: Waldorf,
+    inCart: false,
+    title: "Pam is watching",
+    price: "£100",
+    description: "Pams new resource that is just being added.",
+    category: "for kids",
   },
 ];
 

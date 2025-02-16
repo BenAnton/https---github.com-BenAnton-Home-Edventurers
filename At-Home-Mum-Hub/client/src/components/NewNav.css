@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding-inline: 15px;
+  padding-block: 25px;
   background-color: #2a4041;
   border-bottom: 2px solid white;
   height: auto;
@@ -50,7 +51,7 @@
 .nav-a {
   color: white;
   font-weight: 900;
-  font-size: 1.2rem;
+  font-size: 1rem;
   white-space: nowrap;
 }
 
@@ -68,9 +69,9 @@
   color: #455a4d;
   font-weight: 900;
   background-color: white;
-  width: 10%;
+  width: 5%;
   padding: 0 1rem;
-  min-width: 200px;
+  min-width: 170px;
   height: 65px;
   font-size: 1.2rem;
 }
@@ -83,10 +84,10 @@
 }
 
 .log-in-btn {
-  width: 10%;
+  width: 5%;
   padding: 0 1rem;
   font-weight: 900;
-  min-width: 200px;
+  min-width: 150px;
   height: 65px;
   font-size: 1.2rem;
   border: 1px solid white;

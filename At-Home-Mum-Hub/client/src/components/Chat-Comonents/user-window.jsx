@@ -1,15 +1,34 @@
 import "./Chat.css";
 
+const Testusers = [
+  {
+    name: "Ben",
+    isLoggedIn: true,
+  },
+  {
+    name: "Pam",
+    isLoggedIn: true,
+  },
+  {
+    name: "Justin",
+    isLoggedIn: true,
+  },
+  {
+    name: "Lucas",
+    isLoggedIn: true,
+  },
+];
+
 function UserWindow() {
   return (
     <div className="UserWindow">
-      <h2>Channels</h2>
+      <h2>Edventurers Online</h2>
       <ul className="user-list">
-        <li>User 1</li>
-        <li>User 2</li>
-        <li>User 3</li>
-        <li>User 4</li>
-        <li>User 5</li>
+        {Testusers.filter((user) => user.isLoggedIn).map((user, index) => (
+          <li key={index} className="user">
+            {user.name}
+          </li>
+        ))}
       </ul>
     </div>
   );

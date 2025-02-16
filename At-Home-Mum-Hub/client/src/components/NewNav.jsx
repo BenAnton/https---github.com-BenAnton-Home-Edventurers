@@ -48,6 +48,12 @@ function NewNav({ openSignup }) {
         <a className="nav-a" href="/Chat">
           Chat
         </a>
+        <a className="nav-a" href="/Gnome">
+          Gnome Edventurers
+        </a>
+        <a className="nav-a" href="/Mushies">
+          Mushies
+        </a>
       </div>
 
       <div className="buttons-cont">

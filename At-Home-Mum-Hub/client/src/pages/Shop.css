@@ -17,11 +17,13 @@
   width: 100%;
   height: 200px;
   background-color: #455a4d;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "charm";
+  margin-top: 50px;
 }
 
 .banner-text {
@@ -30,12 +32,13 @@
 }
 
 .item-cat-heading {
-  margin-left: 20px;
+  text-align: center;
   font-size: 1.3rem;
   font-weight: 900;
+  margin-top: 50px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .items-cont {
     grid-template-columns: 1fr 1fr 1fr;
   }
