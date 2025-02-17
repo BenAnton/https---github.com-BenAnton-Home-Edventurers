@@ -5,6 +5,104 @@ import MessageWindow from "../components/Chat-Comonents/message-window";
 import UserWindow from "../components/Chat-Comonents/user-window";
 import "../components/Chat-Comonents/Chat.css";
 
+const testUsers = [
+  {
+    name: "Ben",
+    isLoggedIn: true,
+    active: true,
+  },
+  {
+    name: "Pam",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "Justin",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "Lucas",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "Andrew",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "10Ten10",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "9Nine9",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "Zebra",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "Dog",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "Cat",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "House",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "Little Johny",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "Dicky",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "Tinkly",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "nintendo64",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "Mario",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "Luigi",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "Isabell",
+    isLoggedIn: true,
+    active: false,
+  },
+  {
+    name: "Jo",
+    isLoggedIn: true,
+    active: false,
+  },
+];
+
 const socket = io("http://localhost:5050", {
   withCredentials: true,
   transports: ["websocket", "polling"],
@@ -26,6 +124,7 @@ function Chat() {
     });
 
     socket.on("message", (message) => {
+      console.log("Received Message:", message);
       setMessages((prevMessages) => [...prevMessages, message]);
     });
 
@@ -38,16 +137,27 @@ function Chat() {
 
   const handleSendMessage = (message) => {
     if (connected) {
+      console.log("Sending message:", message);
       socket.emit("send message", message);
     }
   };
 
+  const activeUser = testUsers.find((user) => user.active);
+
   return (
     <>
       <div className="chat-grid">
-        <UserWindow />
-        <MessageWindow messages={messages} />
-        <Compose onSendMessage={handleSendMessage} />
+        <UserWindow users={testUsers} />
+        <MessageWindow
+          messages={messages}
+          users={testUsers}
+          activeUser={activeUser}
+        />
+        <Compose
+          onSendMessage={handleSendMessage}
+          users={testUsers}
+          activeUser={activeUser}
+        />
       </div>
     </>
   );

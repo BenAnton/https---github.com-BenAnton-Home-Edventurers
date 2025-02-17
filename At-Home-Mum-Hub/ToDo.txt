@@ -26,12 +26,7 @@ Awaiting content from Pam.
 
 
 Chat application implementation
-
-
-Social media integration on home page instead of url. 
-    Instagram
-    Tiktok
-    Facebook 
+messaging now works, need to work out auth and logged in posting etc. 
 
 
 Deploy site

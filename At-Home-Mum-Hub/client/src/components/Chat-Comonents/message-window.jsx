@@ -1,16 +1,26 @@
 /* eslint-disable react/prop-types */
 import "./Chat.css";
 
-const user = "Pam";
-
-function MessageWindow({ messages }) {
+function MessageWindow({ messages, activeUser }) {
   return (
     <div className="MessageWindow">
-      {messages.map((message, index) => (
-        <div key={index} className="message">
-          {user} : {message}
-        </div>
-      ))}
+      {messages && messages.length > 0 ? (
+        messages.map((message, index) => (
+          <div
+            key={index}
+            className={`displayed-message ${
+              message.sender === activeUser.name
+                ? "message-sent"
+                : "message-received"
+            }`}
+          >
+            <div className="message-sender">{message.sender}</div>
+            <div className="message-received">{message.text}</div>
+          </div>
+        ))
+      ) : (
+        <div className="no-messages">Start the conversation...</div>
+      )}
     </div>
   );
 }

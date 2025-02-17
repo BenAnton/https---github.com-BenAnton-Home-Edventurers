@@ -28,8 +28,8 @@ function Footer() {
         <a className="nav-a" href="/Gnome">
           Gnome Edventurers
         </a>
-        <a className="nav-a" href="/Mushies">
-          Mushies
+        <a className="nav-a" href="/Community">
+          Community
         </a>
       </div>
 

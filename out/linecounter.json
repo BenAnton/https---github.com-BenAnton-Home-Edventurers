@@ -1,0 +1,689 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/benanton/Documents/At-Home-Mum-Hub-2025",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2025-02-17 18:36:42",
+            "filesum": 98,
+            "codesum": 18451,
+            "commentsum": 5138,
+            "blanksum": 672,
+            "statistics": {
+                ".jsx": {
+                    "code": 1092,
+                    "comment": 17,
+                    "blank": 120
+                },
+                ".css": {
+                    "code": 1107,
+                    "comment": 12,
+                    "blank": 158
+                },
+                ".svg": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".js": {
+                    "code": 389,
+                    "comment": 2,
+                    "blank": 53
+                },
+                ".json": {
+                    "code": 8647,
+                    "comment": 0,
+                    "blank": 132
+                },
+                "": {
+                    "code": 17,
+                    "comment": 9,
+                    "blank": 2
+                },
+                ".md": {
+                    "code": 5,
+                    "comment": 2,
+                    "blank": 3
+                },
+                ".html": {
+                    "code": 25,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".cjs": {
+                    "code": 14,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".txt": {
+                    "code": 16,
+                    "comment": 0,
+                    "blank": 17
+                },
+                ".pdf": {
+                    "code": 7137,
+                    "comment": 5096,
+                    "blank": 187
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 9,
+                    "filename": "At-Home-Mum-Hub/client/.gitignore"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/eslint.config.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/index.html"
+                },
+                {
+                    "blank": 131,
+                    "code": 6788,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/package.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/postcss.config.cjs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/public/vite.svg"
+                },
+                {
+                    "blank": 3,
+                    "code": 5,
+                    "comment": 2,
+                    "filename": "At-Home-Mum-Hub/client/README.md"
+                },
+                {
+                    "blank": 5,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/App.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/App.jsx"
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/1.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/3.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/4.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/5.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/6.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/cart.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/Child-Led.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/facebook.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/forestSteps.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/Home Edventurers Logo (6).png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 187,
+                    "code": 7137,
+                    "comment": 5096,
+                    "filename": "At-Home-Mum-Hub/client/src/assets/Home edventurers.pdf"
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/HomeEdLogo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/HomeEdWhite.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/Hygge.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/instagram.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/magic-image.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/Montessori.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/motivation.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/Nature.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/Pam-cutout.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/pamBeach.JPG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/plants.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/assets/react.svg"
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/tiktok.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/Unschooling.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/up.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "At-Home-Mum-Hub/client/src/assets/Waldorf.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/CartItem.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/components/CartItem.jsx"
+                },
+                {
+                    "blank": 18,
+                    "code": 116,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Chat-Comonents/Chat.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Chat-Comonents/compose.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 25,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Chat-Comonents/message-window.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 19,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Chat-Comonents/user-window.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Footer.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Footer.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Forum-Components/Feed.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 39,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Forum-Components/Feed.jsx"
+                },
+                {
+                    "blank": 8,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Forum-Components/Post.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 20,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Forum-Components/Post.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Forum-Components/SideBar.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 19,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Forum-Components/Sidebar.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Hero.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Hero.jsx"
+                },
+                {
+                    "blank": 9,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/ItemCard.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/components/ItemCard.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/MyAccount.jsx"
+                },
+                {
+                    "blank": 26,
+                    "code": 164,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/NewNav.css"
+                },
+                {
+                    "blank": 11,
+                    "code": 80,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/components/NewNav.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/PhotoGrid.jsx"
+                },
+                {
+                    "blank": 11,
+                    "code": 64,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Slider.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Slider.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 28,
+                    "comment": 7,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Social.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Social.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Subject.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/components/Subject.jsx"
+                },
+                {
+                    "blank": 10,
+                    "code": 47,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/context/AuthContext.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 31,
+                    "comment": 2,
+                    "filename": "At-Home-Mum-Hub/client/src/context/CartContext.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 104,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/data.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/index.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/main.jsx"
+                },
+                {
+                    "blank": 14,
+                    "code": 87,
+                    "comment": 5,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/About.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/About.jsx"
+                },
+                {
+                    "blank": 13,
+                    "code": 103,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/CartModel.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 37,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/CartModel.jsx"
+                },
+                {
+                    "blank": 11,
+                    "code": 155,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/Chat.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/Community.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/Community.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/Gnome.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 19,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/Home.jsx"
+                },
+                {
+                    "blank": 8,
+                    "code": 75,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/LoginModel.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 45,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/LoginModel.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/Shop.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 76,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/Shop.jsx"
+                },
+                {
+                    "blank": 11,
+                    "code": 85,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/SignUpModel.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 69,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/src/pages/SignupModel.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "At-Home-Mum-Hub/client/vite.config.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/server/.env"
+                },
+                {
+                    "blank": 7,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/server/db/connection.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/server/middleware/authMiddleware.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 1785,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/server/package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/server/package.json"
+                },
+                {
+                    "blank": 12,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/server/routes/auth.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 61,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/server/routes/clients.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/server/routes/items.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/server/server.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "At-Home-Mum-Hub/ToDo.txt"
+                }
+            ]
+        }
+    ]
+}

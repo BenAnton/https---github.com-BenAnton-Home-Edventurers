@@ -1,0 +1,49 @@
+.full-post {
+  width: 100%;
+  border: 2px solid white;
+  height: fit-content;
+  background-color: #2a4041;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: space-between;
+}
+
+.user-post {
+  font-weight: 900;
+}
+
+.content {
+  font-style: italic;
+}
+
+.third-row {
+  display: flex;
+  gap: 5rem;
+}
+
+.third-row > p {
+  margin-left: auto;
+}
+
+.post-buttons {
+  border: 2px solid white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button-flex {
+  display: flex;
+  align-items: center;
+}
+
+.post-buttons:hover {
+  background-color: white;
+  color: #2a4041;
+}
+
+.up-arrow {
+  width: 1.3rem;
+  margin-inline: auto;
+}

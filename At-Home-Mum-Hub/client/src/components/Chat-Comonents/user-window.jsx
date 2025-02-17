@@ -1,34 +1,19 @@
+/* eslint-disable react/prop-types */
 import "./Chat.css";
 
-const Testusers = [
-  {
-    name: "Ben",
-    isLoggedIn: true,
-  },
-  {
-    name: "Pam",
-    isLoggedIn: true,
-  },
-  {
-    name: "Justin",
-    isLoggedIn: true,
-  },
-  {
-    name: "Lucas",
-    isLoggedIn: true,
-  },
-];
-
-function UserWindow() {
+function UserWindow({ users }) {
   return (
     <div className="UserWindow">
-      <h2>Edventurers Online</h2>
+      <h2 className="channel-title">Edventurers Online</h2>
       <ul className="user-list">
-        {Testusers.filter((user) => user.isLoggedIn).map((user, index) => (
-          <li key={index} className="user">
-            {user.name}
-          </li>
-        ))}
+        {users
+          .filter((user) => user.isLoggedIn)
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map((user, index) => (
+            <li key={index} className="user">
+              {user.name}
+            </li>
+          ))}
       </ul>
     </div>
   );

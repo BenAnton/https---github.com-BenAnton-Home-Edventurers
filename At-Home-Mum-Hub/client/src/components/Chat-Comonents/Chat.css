@@ -4,43 +4,91 @@
   grid-template-rows: 9fr 1fr;
   border: 2px solid white;
   margin: 3%;
+  margin-inline: auto;
+  width: 95vw;
+  max-width: 1700px;
+  box-sizing: border-box;
 }
 
 .UserWindow {
   border: 2px solid white;
+  overflow-y: auto;
+  height: 65vh;
 }
 
 .MessageWindow {
   border: 2px solid white;
   height: 65vh;
+  overflow-y: auto;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.displayed-message {
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 8px 0;
+  max-width: 70%;
+  width: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  color: white;
 }
 
 .Compose {
   border: 2px solid white;
-  grid-column: 1 / 3;
+
   display: flex;
   height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  gap: 10px;
 }
 
 form {
   width: 100%;
-  grid-column: 1/ 3;
+  max-width: 1800px;
+  display: flex;
   height: 100%;
+  grid-column: 1 / 3;
 }
 
 .chat-send-btn {
-  width: 250px;
-  margin-left: auto;
+  width: 120px;
+
   color: white;
   background-color: #2a4041;
   border: 2px solid white;
-  margin: 15px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .message {
-  flex-grow: 2;
+  flex-grow: 1;
+
   border: 1px solid white;
-  padding-inline: 10px;
+  padding: 10px;
+  resize: none;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+}
+
+.message-sent {
+  background-color: #2a4041;
+  color: white;
+  margin-left: auto;
+}
+
+.message-received {
+  color: white;
+  margin-right: auto;
 }
 
 .message-cont {
@@ -75,4 +123,12 @@ form {
 
 .user {
   border-bottom: 2px solid white;
+  font-weight: 900;
+  padding: 15px 10px;
+}
+
+.user-message-name {
+  font-weight: 900;
+  font-size: 1rem;
+  margin-bottom: 5px;
 }

@@ -13,7 +13,7 @@ import Chat from "./pages/Chat.jsx";
 import { useState } from "react";
 import SignUpModel from "./pages/SignupModel.jsx";
 import Gnome from "./pages/Gnome.jsx";
-import Mushies from "./pages/Mushies.jsx";
+import Community from "./pages/Community.jsx";
 
 function App() {
   const [isSignupOpen, setIsSignupOpen] = useState(false);
@@ -35,7 +35,7 @@ function App() {
                   <Route path="/Me" element={<MyAccount />} />
                   <Route path="/Chat" element={<Chat />} />
                   <Route path="/Gnome" element={<Gnome />} />
-                  <Route path="/Mushies" element={<Mushies />} />
+                  <Route path="/Community" element={<Community />} />
                 </Routes>
               </div>
               <Footer />
